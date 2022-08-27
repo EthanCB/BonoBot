@@ -1,5 +1,4 @@
-import { Command } from "./interfaces/command";
-import { Hello } from "./commands/hello";
-import { Leave } from "./commands/leave";
+import { Command } from "./commands/command"
+import ping from "./commands/ping"
 
-export const Commands: Command[] = [Hello, Leave];
+export const Commands: Command[] = [ping];
